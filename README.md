@@ -23,3 +23,11 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+
+```ruby
+def my_great _method
+  puts "Here it is"
+end
+```
+
