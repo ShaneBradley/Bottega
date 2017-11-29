@@ -26,7 +26,7 @@ Things you may want to cover:
 
 
 ```ruby
-def my_great _method
+def my_great_method
   puts "Here it is"
 end
 ```
