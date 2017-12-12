@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/ShaneBradley/bradley_view_tool
+  revision: c8a6b88398f1ffaf893fb806a7fa89ff25a254f8
+  specs:
+    bradley_view_tool (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -184,6 +190,7 @@ PLATFORMS
 
 DEPENDENCIES
   bootstrap (~> 4.0.0.beta2.1)
+  bradley_view_tool!
   byebug
   coffee-rails (~> 4.2)
   devise (~> 4.3)
