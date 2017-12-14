@@ -15,16 +15,10 @@
 
   <body>
     
-    <!-- start of nav -->
-    <%= render "shared/portfolio_nav" %>
-    <!-- end of nav -->
-    
-    <!-- start of masthead -->
-    <%= render "shared/portfolio_masthead" %>    
 
-    <!-- end of masthead -->
+    <%= render "shared/portfolio_nav" %>
     
-    <%= render "shared/nav", location: "top" %>
+    <%= render "shared/portfolio_masthead" unless logged_in?(:site_admin) %>    
     
     <%= yield %>
     
