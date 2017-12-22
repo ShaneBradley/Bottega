@@ -205,3 +205,13 @@ body {
   background: image-url('Head-or-Tails.jpg') no-repeat;
   background-size: cover;
 }
+
+.app-card-container {
+  color: black;
+  text-align: left;
+  
+}
+
+.app-card-container > .card {
+  padding: 40px;
+}
